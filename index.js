@@ -27,6 +27,19 @@ let mode = "light";
 let menu= document.querySelectorAll(".menu");
 let aside1= document.querySelector(".aside1");
 let asideFunction = "close";
+const text= document.querySelector(".typing");
+
+const textLoad= () =>{
+  setTimeout(() => {
+    text.textContent="Game Developer";
+  }, 0);
+  setTimeout(() => {
+    text.textContent="FrontEnd Developer";
+  }, 4000);
+}
+
+textLoad();
+setInterval(textLoad,12000);
 
 btn.forEach((btnClick)=>{
 btnClick.addEventListener("click",()=>{

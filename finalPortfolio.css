@@ -389,6 +389,25 @@ h3.my-profession{
 .typing{
     color: var(--skin-color);
 }
+
+ .typing::before{
+   
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-left: 2px solid var(--bg--lightGrey);
+    animation: animate 4s steps(19) infinite;
+   
+}
+@keyframes animate{
+    40%, 60%{
+        left: 60%;
+    }
+    100%{
+        left: 9.9%;
+    }
+}
+
 .home-info p{
     margin-bottom: 70px;
     font-size: 20px;
