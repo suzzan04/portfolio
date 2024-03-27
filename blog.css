@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap');
+:root{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-white-100:#fdf9ffe1;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+    --text-white:#c3b8b8;
+    --bg--lightGrey : #dedede91;
+    --skin-color:#ec1839;
+}
+
+body{
+    padding: 0;
+    margin: 2;
+    font-family: 'Poppins' sans-serif;
+}
+
+.nav .container{
+    font-size: 22px;
+    display: flex;
+    gap: 990px;
+    
+    
+    
+}
+.container .left-corner h3{
+    color: #ec1839;
+    font-family: 'Clicker Script', cursive;
+
+}
+.container .left-corner .nav-left{
+    color: rgb(237, 233, 233);
+    background:rgb(17, 15, 15);
+
+}
+li{
+    list-style: none;
+}
+
+.right-corner{
+    margin-top: 27px;
+   
+}
+.right-corner .content{
+ display: flex;
+ gap: 15px;
+}
+
+.right-corner input{
+    border:none ;
+    width: 37%;
+}
+.button1{
+    margin-left: -59px;
+}
+
+

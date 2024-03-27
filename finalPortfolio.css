@@ -393,11 +393,12 @@ h3.my-profession{
  .typing::before{
    
     content: "";
-    position: absolute;
-    width: 100%;
-    border-left: 2px solid var(--bg--lightGrey);
     animation: animate 4s steps(19) infinite;
    
+}
+
+.portfolio-img a img:hover{
+background-color: #504e70;
 }
 @keyframes animate{
     40%, 60%{
@@ -758,7 +759,6 @@ padding: 0 50px;
     margin-left: 20px;
     display: none;
 }
-
 
 /* media query */
 
