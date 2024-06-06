@@ -842,3 +842,51 @@ padding: 0 50px;
     }
 }
 
+@media (max-width: 387px) {
+    .about .personal-info .info-item p, 
+    .about .skills .skill-item h5, 
+    .contact .contact-info-item h4 {
+        font-size: 12px; /* Reduce font size to prevent overlap */
+    }
+
+    .padd-15 {
+        padding: 5px; /* Reduce padding to make more space */
+    }
+
+    .about .personal-info, 
+    .about .skills, 
+    .contact .contact-info-item {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start;
+    }
+
+    .about .personal-info .info-item, 
+    .about .skills .skill-item, 
+    .contact .contact-info-item {
+        margin-bottom: 10px; /* Add space between items */
+    }
+
+    .about .personal-info .info-item p .detail, 
+    .contact .contact-info-item .contactP {
+        display: block; /* Make details appear on a new line */
+        margin-top: 5px; /* Add margin to separate details from title */
+    }
+
+    .progress {
+        width: 100%; /* Ensure progress bars take full width */
+    }
+
+    .about .skills .skill-item .progress-in {
+        height: 8px; /* Adjust the height of progress bar for smaller screens */
+    }
+
+    .buttons .btn {
+        padding: 8px 12px; /* Adjust button padding for smaller screens */
+        font-size: 12px; /* Reduce button font size */
+    }
+
+    .contact .contact-form .form-control {
+        font-size: 12px; /* Adjust input font size */
+        padding: 8px; /* Adjust padding inside input fields */
+    }
+}
