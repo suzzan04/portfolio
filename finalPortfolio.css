@@ -890,3 +890,37 @@ padding: 0 50px;
         padding: 8px; /* Adjust padding inside input fields */
     }
 }
+
+
+
+
+
+
+/* Media query for screens with a resolution of 1080x2400 pixels */
+@media (min-width: 1080px) and (max-width: 2400px) {
+    .about .personal-info .info-item p, 
+    .about .skills .skill-item h5, 
+    .contact .contact-info-item h4 {
+        font-size: 14px;
+    }
+
+    .about .personal-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about .personal-info .info-item {
+        flex: 1 1 33%; /* Adjust the flex-basis to 33% for three columns */
+        box-sizing: border-box;
+    }
+
+    .about .skills .skill-item {
+        flex: 1 1 45%; /* Adjust the flex-basis to 45% for better alignment */
+        box-sizing: border-box;
+    }
+
+    .contact .contact-info-item {
+        flex: 1 1 45%; /* Adjust the flex-basis to 45% for better alignment */
+        box-sizing: border-box;
+    }
+}
