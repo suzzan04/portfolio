@@ -823,3 +823,22 @@ padding: 0 50px;
     }
 }
 
+
+
+
+/* gpt */
+
+
+@media (min-width: 1200px) {
+
+    .about .about-content, .portfolio .portfolio-heading, .contact .contact-info-item {
+        flex: 1;
+    }
+}
+
+@media (max-width: 576px) {
+    .about .personal-info .info-item p, .about .skills .skill-item h5, .contact .contact-info-item h4 {
+        font-size: 14px;
+    }
+}
+
