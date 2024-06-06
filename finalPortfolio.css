@@ -928,3 +928,13 @@ padding: 0 50px;
         }
     
 }
+
+
+/* Media query for screens with a maximum width of 540 pixels */
+@media (max-width: 740px) {
+    .about .about-content .education,
+    .about .about-content .experience {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
