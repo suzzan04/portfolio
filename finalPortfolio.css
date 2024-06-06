@@ -923,4 +923,8 @@ padding: 0 50px;
         flex: 1 1 45%; /* Adjust the flex-basis to 45% for better alignment */
         box-sizing: border-box;
     }
+    .about .about-content .personal-info .info-item{
+        margin-left: 20px;
+        }
+    
 }
